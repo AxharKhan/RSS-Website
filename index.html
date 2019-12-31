@@ -140,7 +140,7 @@
               </br>
               <p>We provide the following services:</p>
               <ol>
-                <li>Web Development (HTML, PHP, ASP.Net, JavaScript)</li>
+                <li>Web Development (HTML, PHP, ASP.Net, JavaScript, CSS)</li>
                 <li>Android App Development</li>
               </ol>
             </div>
@@ -214,7 +214,7 @@
   </div>
 
 
-  <div id="teams" class="parallax-container valign-wrapper section scrollspy" style="height: auto;" id="aboutus">
+  <div class="parallax-container valign-wrapper section scrollspy" style="height: auto;" id="aboutus">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="center row col s3">
@@ -475,7 +475,7 @@
     $(window).on('resize', function () {
       if ($(window).width() > 992) {
         $('#team-cards').addClass('row');
-        document.getElementById("teams").style.minHeight = "380px";
+        document.getElementById("aboutus").style.minHeight = "380px";
 
 
 
@@ -483,19 +483,19 @@
         // $('#team-cards').removeClass();
 
       } else if ($(window).width() > 600) {
-        document.getElementById("teams").style.minHeight = "900px";
+        document.getElementById("aboutus").style.minHeight = "900px";
         $('#team-cards').addClass('row');
 
       } else {
         // $('#team-cards').addClass();
         $('#team-cards').removeClass('row');
-        document.getElementById("teams").style.minHeight = "1500px";
+        document.getElementById("aboutus").style.minHeight = "1500px";
       }
     });
     $(document).ready(function () {
       if ($(window).width() > 992) {
         $('#team-cards').addClass('row');
-        document.getElementById("teams").style.minHeight = "380px";
+        document.getElementById("aboutus").style.minHeight = "380px";
 
 
 
@@ -503,13 +503,13 @@
         // $('#team-cards').removeClass();
 
       } else if ($(window).width() > 600) {
-        document.getElementById("teams").style.minHeight = "900px";
+        document.getElementById("aboutus").style.minHeight = "900px";
         $('#team-cards').addClass('row');
 
       } else {
         // $('#team-cards').addClass();
         $('#team-cards').removeClass('row');
-        document.getElementById("teams").style.minHeight = "1500px";
+        document.getElementById("aboutus").style.minHeight = "1500px";
       }
     });
 
