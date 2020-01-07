@@ -1,5 +1,4 @@
-nav ul a,
-nav .brand-logo {
+nav ul a, nav .brand-logo {
   color: #444;
 }
 
@@ -15,34 +14,28 @@ p {
   min-height: 380px;
   line-height: 0;
   height: auto;
-  color: rgba(255,255,255,.9);
+  color: rgba(255, 255, 255, .9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
 
-@media only screen and (max-width : 992px) {
+.parallax-container .section {
+  width: 100%;
+}
 
+@media only screen and (max-width: 992px) {
   .parallax-container .section {
     position: absolute;
     top: 10%;
-    
   }
   #index-banner .section {
     top: 10%;
   }
 }
 
-@media only screen and (max-width : 600px) {
-
+@media only screen and (max-width: 600px) {
   #index-banner .section {
     top: 0;
   }
 }
-
-
-
-
 
 .icon-block {
   padding: 0 15px;
@@ -52,70 +45,70 @@ footer.page-footer {
   margin: 0;
 }
 
-
-
-
- .parallax img 
- {
- 	 background-repeat: no-repeat;
- 	 background-size: cover;
- }
- .parallax-container
- {
- 	color: black;
- }
- @media only screen and (max-width : 600px) {
-  .parallax-container
- {
- 	color: white;
- }
+.parallax img {
+  background-repeat: no-repeat;
+  background-size: cover;
 }
- nav a.button-collapse
- {
- 	color:black;
- }
- .purple.lighten-1 {
+
+.parallax-container {
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .parallax-container {
+    color: white;
+  }
+}
+
+nav a.button-collapse {
+  color: black;
+}
+
+.purple.lighten-1 {
   background-color: #CC0066 !important;
 }
+
 .teal-text.text-lighten-2 {
   color: #CC0066 !important;
 }
-.share-buttons{
-	list-style: none;
+
+.share-buttons {
+  list-style: none;
 }
 
-.share-buttons li{
-	display: inline;
+.share-buttons li {
+  display: inline;
 }
-nav
-{
-	overflow: visible;
+
+nav {
+  overflow: visible;
 }
+
 nav li a {
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
+  -webkit-transition: background .3s ease-in-out;
+  -moz-transition: background .3s ease-in-out;
+  transition: background .3s ease-in-out;
 }
 
-
-.container_new{
+.container_new {
   position: relative;
-  height:100vh;
+  height: 100vh;
 }
-.banner{
+
+.banner {
   position: relative;
   width: 100%;
   height: 100vh;
 }
-header{
+
+header {
   position: sticky;
-  top:0;
+  top: 0;
   width: 100%;
   height: 50px;
   background-color: white;
   opacity: 100%;
-  z-index:2;
-
+  z-index: 2;
 }
 
 html {
@@ -137,15 +130,12 @@ html {
   0% {
     top: 0;
   }
-
   50% {
     top: -0.2em;
   }
-
   70% {
     top: -0.3em;
   }
-
   100% {
     top: 0;
   }
@@ -155,15 +145,12 @@ html {
   0% {
     top: 0;
   }
-
   50% {
     top: -0.2em;
   }
-
   70% {
     top: -0.3em;
   }
-
   100% {
     top: 0;
   }
@@ -173,15 +160,12 @@ html {
   0% {
     top: 0;
   }
-
   50% {
     top: -0.2em;
   }
-
   70% {
     top: -0.3em;
   }
-
   100% {
     top: 0;
   }
@@ -191,15 +175,12 @@ html {
   0% {
     top: 0;
   }
-
   50% {
     top: -0.2em;
   }
-
   70% {
     top: -0.3em;
   }
-
   100% {
     top: 0;
   }
@@ -209,15 +190,12 @@ html {
   0% {
     top: 0;
   }
-
   50% {
     top: -0.2em;
   }
-
   70% {
     top: -0.3em;
   }
-
   100% {
     top: 0;
   }
@@ -234,6 +212,7 @@ html {
   max-height: 1500px;
   transition: max-height 2s ease-in;
 }
+
 .glow {
   /* color:#fff; */
   -moz-transition: all 0.2s ease-in;
@@ -244,7 +223,7 @@ html {
 
 .glow:hover {
   color: #0d47a1;
-  text-shadow:0px 0px 30px #0d47a1;
+  text-shadow: 0px 0px 30px #0d47a1;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
@@ -259,15 +238,15 @@ html {
 }
 
 .grow2:hover {
-  
   max-height: 1500px;
   transition: max-height 2s ease-in;
 }
+
 .slide-wrapper {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 100%; 
+  height: 100%;
 }
 
 #slide {
@@ -282,11 +261,12 @@ html {
   transition: 1s;
   right: 100px;
 }
+
 .slide-left-wrapper {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 100%; 
+  height: 100%;
 }
 
 #slide-left {
@@ -301,31 +281,33 @@ html {
   transition: 1s;
   left: 100px;
 }
-.show-on-top{
-    background: rgba(255, 255, 255, 0.5);
 
+.show-on-top {
+  background: rgba(255, 255, 255, 0.5);
   z-index: 2;
 }
 
-
 /* Popup box BEGIN */
-.hover_bkgr_fricc{
-  background:rgba(0,0,0,.4);
-  cursor:pointer;
-  display:none;
-  height:100%;
-  position:fixed;
-  text-align:center;
-  top:0;
-  width:inherit !important;
-  z-index:1000;
+
+.hover_bkgr_fricc {
+  background: rgba(0, 0, 0, .4);
+  cursor: pointer;
+  display: none;
+  height: 100%;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: inherit !important;
+  z-index: 1000;
 }
-.hover_bkgr_fricc .helper{
-  display:inline-block;
-  height:100%;
-  vertical-align:middle;
+
+.hover_bkgr_fricc .helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
 }
-.hover_bkgr_fricc > div {
+
+.hover_bkgr_fricc>div {
   background-color: #fff;
   box-shadow: 10px 10px 60px #555;
   display: inline-block;
@@ -338,6 +320,7 @@ html {
   border-radius: 8px;
   padding: 15px 5%;
 }
+
 .popupCloseButton {
   background-color: #fff;
   border: 3px solid #999;
@@ -355,11 +338,14 @@ html {
   height: 30px;
   text-align: center;
 }
+
 .popupCloseButton:hover {
   background-color: #ccc;
 }
+
 .trigger_popup_fricc {
   cursor: pointer;
   font-weight: bold;
 }
+
 /* Popup box BEGIN */
