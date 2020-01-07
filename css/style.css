@@ -250,6 +250,7 @@ html {
 }
 
 #slide {
+  opacity: 30%;
   position: absolute;
   right: -1080px;
   height: 80vh;
