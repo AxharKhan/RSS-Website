@@ -71,139 +71,133 @@
 
           <div class="col s12 m6 l6">
             <h3>X1</h3>
-          <div class="divider"></div>
+            <div class="divider"></div>
 
             <h5>Technical Specifications:</h5>
 
-          <ul class="browser-default">
-            <li style="list-style-type: circle !important;">
-              Print Area: 200 x 200 x 200 mm
-            </li>
-            <li style="list-style-type: circle !important;">
+            <ul class="browser-default">
+              <li style="list-style-type: circle !important;">
+                Print Area: 200 x 200 x 200 mm
+              </li>
+              <li style="list-style-type: circle !important;">
 
-              Materials: PLA and ABS , Single Extender with changeable nozzles.
-            </li>
-          <li style="list-style-type: circle !important;">
+                Materials: PLA and ABS , Single Extender with changeable nozzles.
+              </li>
+              <li style="list-style-type: circle !important;">
 
-            Automatic Bed Leveling Feature for Bed Calibration.
+                Automatic Bed Leveling Feature for Bed Calibration.
 
-          </listyle="list-style-type: circle !important;">
-          <li style="list-style-type: circle !important;">
-            Power Backup, printing resumes if interrupted by power loss.
-          </li>
+              </li>
+              <li style="list-style-type: circle !important;">
+                Power Backup, printing resumes if interrupted by power loss.
+              </li>
 
-          </ul>
+            </ul>
           </div>
           <div class="col s12 m6 l6">
-              <img src="images/3d.png" class="responsive-img" />
+            <img src="images/3d.png" class="responsive-img" />
           </div>
         </div>
         <div class="row">
           <div class="col s12 m6 l6">
-            <img class="materialboxed responsive-img"
-              src="images/3dprinter1.JPG">
+            <img class="materialboxed responsive-img" src="images/3dprinter1.JPG">
           </div>
           <div class="col s12 m6 l6">
-            <img class="materialboxed responsive-img"
-              src="images/3dprinter2.JPG">
+            <img class="materialboxed responsive-img" src="images/3dprinter2.JPG">
           </div>
         </div>
         <!--row-->
         <div class="row">
           <div class="col s12 m6 l6">
-            <img class="materialboxed responsive-img" 
-              src="images/3dprinter3.JPG">
+            <img class="materialboxed responsive-img" src="images/3dprinter3.JPG">
           </div>
           <div class="col s12 m6 l6">
-            <img class="materialboxed responsive-img"
-              src="images/3dprinter4.JPG">
+            <img class="materialboxed responsive-img" src="images/3dprinter4.JPG">
           </div>
         </div>
         <!--row-->
         <div class="row">
           <div class="col s12 m6 l6">
-            <img class="materialboxed responsive-img" 
-              src="images/3dprinter5.JPG">
+            <img class="materialboxed responsive-img" src="images/3dprinter5.JPG">
           </div>
           <div class="col s12 m6 l6">
-            <img class="materialboxed responsive-img" 
-              src="images/3dprinter6.JPG">
+            <img class="materialboxed responsive-img" src="images/3dprinter6.JPG">
           </div>
         </div>
-        </div>
-        
       </div>
-    </div>
-    </divl>
 
-    <div class="banner" style="height: 100% !important;">
-      <div class="section scrollspy slide-left-wrapper" id="mechanical">
-        <!--   Icon Section   -->
-        <div class="container">
-          <div class="row">
-            <div style="height: 100px;"></div>
-            <video class="responsive-video" controls width="auto">
-              <source src="images/3dPrinter.mp4" type="video/mp4">
-            </video>
-          </div>
+    </div>
+  </div>
+
+
+  <div class="banner" style="height: 100% !important;">
+    <div class="section scrollspy slide-left-wrapper" id="mechanical">
+      <!--   Icon Section   -->
+      <div class="container">
+        <div class="row">
+          <div style="height: 100px;"></div>
+          <video class="responsive-video" controls width="auto">
+            <source src="images/3dPrinter.mp4" type="video/mp4">
+          </video>
         </div>
       </div>
     </div>
+  </div>
 
 
-    <footer class="page-footer blue darken-4">
-      <div class="footer-copyright" style="height: 100%;">
-        <div class="container">
-          <div class="row">
-            <div class="col s12 l12">
-              <p style="line-height: 1;margin: 0;">Copyright © Receptive Systems and Solutions</p>
-            </div>
+  <footer class="page-footer blue darken-4">
+    <div class="footer-copyright" style="height: 100%;">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 l12">
+            <p style="line-height: 1;margin: 0;">Copyright © Receptive Systems and Solutions</p>
           </div>
         </div>
       </div>
-    </footer>
-    <!--  Scripts-->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/materialize.js"></script>
-    <script src="js/init.js"></script>
-    <script>
-      $(document).ready(function () {
-        $('.materialboxed').materialbox();
-        $('.button-collapse').sideNav();
+    </div>
+  </footer>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.materialboxed').materialbox();
+      $('.button-collapse').sideNav();
 
-      });
-    </script>
-    <script>
+    });
+  </script>
+  <script>
 
-      $('.head-link').click(function (e) {
-        e.preventDefault();
-        var goto = $(this).attr('href');
-        $('html, body').animate({
-          scrollTop: $(goto).offset().top
-        }, 800);
-      });
-      var mybutton = document.getElementById("totop");
-      // When the user scrolls down 20px from the top of the document, show the button
-      window.onscroll = function () { scrollFunction() };
-      function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-          mybutton.style.display = "block";
-        } else {
-          mybutton.style.display = "none";
-        }
+    $('.head-link').click(function (e) {
+      e.preventDefault();
+      var goto = $(this).attr('href');
+      $('html, body').animate({
+        scrollTop: $(goto).offset().top
+      }, 800);
+    });
+    var mybutton = document.getElementById("totop");
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
       }
+    }
 
-    </script>
-    <script>
-      (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-          (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date(); a = s.createElement(o),
-          m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-      ga('create', 'UA-155579181-1', 'auto');
-      ga('send', 'pageview');
-    </script>
+  </script>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-155579181-1', 'auto');
+    ga('send', 'pageview');
+  </script>
 </body>
 
 </html>
