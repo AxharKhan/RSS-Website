@@ -64,7 +64,7 @@
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
           <ul class="right hide-on-med-and-down">
             <li><a class="head-link" href="#more">Overview</a></li>
-            <li><a class="head-link" href="#products">Our Products</a></li>
+            <li><a class="head-link" href="#products">Products and Services</a></li>
             <li><a class="head-link" href="#aboutus">About Us</a></li>
             
             <li><a class="head-link" href="#contactus">Contact Us</a></li>
@@ -75,7 +75,7 @@
   </header>
   <ul class="right side-nav" id="mobile-demo">
     <li><a class="head-link" href="#more">Overview</a></li>
-    <li><a class="head-link" href="#products">Our Products</a></li>
+    <li><a class="head-link" href="#products">Products and Services</a></li>
 
     <li><a class="head-link" href="#aboutus">About Us</a></li>
     <li><a class="head-link" href="#contactus">Contact Us</a></li>
@@ -124,15 +124,23 @@
     <div class="section scrollspy banner " id="products">
       <!--   Icon Section   -->
       <div class="row" style="margin-top: 50px;">
-        <h2 class="center-align">Our Products</h2>
+        <h2 class="center-align">Our Products and Services</h2>
       </div>
       <div class="row">
       </div>
       <div class="row">
-        <a href="3dprinter.html" class="col s12 m4 offset-m4 card-panel grey lighten-4 glow">
+        <a href="3dprinter.html" class="col s12 m4 offset-m2 card-panel grey lighten-4 glow">
           <div class="icon-block">
             <img src="images/3dprinter2.JPG" width="100%"> 
             <h5 class="center">3D Printers</h5>
+            <p class="center">Click for details!</p>
+          </div>
+        </a>
+
+        <a href="3dprinting.html" class="col s12 m4 card-panel grey lighten-4 glow">
+          <div class="icon-block">
+            <img src="images/3dprinted.jpeg" width="100%"> 
+            <h5 class="center">3D Printing</h5>
             <p class="center">Click for details!</p>
           </div>
         </a>
@@ -360,29 +368,47 @@
     $(window).on('resize', function () {
       if ($(window).width() > 600) {
         document.getElementById("more").style.minHeight = "auto";
+        document.getElementById("products").style.minHeight = "auto";
+
         // $('#team-cards').removeClass();
 
       } else if ($(window).width() > 400) {
         document.getElementById("more").style.minHeight = "800px";
+        document.getElementById("products").style.minHeight = "800px";
+        $('#products').removeClass('banner');
+
         $('#more').addClass('row');
 
       } else {
         // $('#team-cards').addClass();
         document.getElementById("more").style.minHeight = "1080px";
+        document.getElementById("products").style.minHeight = "1080px";
+        $('#products').removeClass('banner');
+
       }
     });
     $(document).ready(function () {
       if ($(window).width() > 600) {
         document.getElementById("more").style.minHeight = "auto";
+        document.getElementById("products").style.minHeight = "auto";
+
         // $('#team-cards').removeClass();
 
       } else if ($(window).width() > 400) {
         document.getElementById("more").style.minHeight = "800px";
+        document.getElementById("products").style.minHeight = "800px";
+        $('#products').removeClass('banner');
+
+
         $('#more').addClass('row');
 
       } else {
         // $('#team-cards').addClass();
         document.getElementById("more").style.minHeight = "1080px";
+        document.getElementById("products").style.minHeight = "1080px";
+
+        $('#products').removeClass('banner');
+
       }
     });
   </script>
